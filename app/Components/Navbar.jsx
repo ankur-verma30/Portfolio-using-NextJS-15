@@ -38,6 +38,7 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
       >
         <a href="#top">
           <Image
+          // add logo of your name
             src={ isDarkMode ? assets.logo_dark :assets.logo}
             alt="logo"
             className="w-28 cursor-pointer mr-14"
@@ -83,6 +84,8 @@ const Navbar = ({isDarkMode,setIsDarkMode}) => {
             />
           </button>
         </div>
+
+        
         {/* mobile menu */}
         <ul
           ref={sideMenuRef}
