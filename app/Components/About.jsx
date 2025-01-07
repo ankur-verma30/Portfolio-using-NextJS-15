@@ -6,7 +6,6 @@ import { motion } from "motion/react";
 const About = ({isDarkMode}) => {
   return (
     <motion.div
-   
     id="about" className="w-full px-[12%] py-10 scroll-mt-20 ">
       <motion.h4
        initial={{opacity:0,y:-20}}
@@ -18,35 +17,31 @@ const About = ({isDarkMode}) => {
       whileInView={{opacity:1,y:0}}
       transition={{ duration: 0.5,delay:0.5}}
       className="text-center text-5xl font-Ovo">About Me</motion.h2>
+
       <motion.div
        initial={{opacity:0}}
        whileInView={{opacity:1}}
        transition={{ duration: 0.8}}
-      className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+      className="flex w-full flex-col lg:flex-row items-start gap-20 my-20">
         <motion.div
          initial={{opacity:0,scale:0.9}}
          whileInView={{opacity:1,scale:1}}
          transition={{ duration: 0.6}}
-        className="w-64 sm:w-80 rounded-3xl max-w-none">
+        className="w-64 sm:w-80 rounded-3xl max-w-none  ">
           <Image
             src={assets.user_image}
             alt="user"
-            className="w-full rounded-3xl"
+            className="w-full rounded-3xl  "
           />
         </motion.div>
-        {/* write the meaningful about me */}
+    
         <motion.div
          initial={{opacity:0}}
          whileInView={{opacity:1}}
          transition={{ duration: 0.6,delay:0.8}}
         className="flex-1">
-          {/* write meaningful texts */}
           <p className="mb-10 max-w-2xl font-Ovo">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-            facere mollitia. Architecto aliquam porro rerum, labore recusandae
-            non illo atque repudiandae nam beatae amet nisi sapiente laboriosam
-            culpa ipsa inventore vitae asperiores velit? Atque, rerum. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Facilis, aliquid.
+          Hello, I'm Ankur Verma, an aspiring full-stack developer from India. With strong problem-solving skills, I specialize in building interactive and functional websites. I'm passionate about coding and continuously learning new technologies to enhance my craft. Let's create innovative digital experiences together!
           </p>
           <motion.ul
            initial={{opacity:0}}

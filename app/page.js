@@ -8,6 +8,9 @@ import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 import Work from "./Components/Work";
 import { ToastContainer } from "react-toastify";
+import Technologies from "./Components/Technologies";
+import Experience from "./Components/Experience";
+import CodingStats from "./Components/CodingStats";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -39,7 +42,10 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header isDarkMode={isDarkMode}/>
       <About isDarkMode={isDarkMode}/>
+      <Technologies isDarkMode={isDarkMode}/>
+      <Experience isDarkMode={isDarkMode}/>
       <Services isDarkMode={isDarkMode}/>
+      <CodingStats isDarkMode={isDarkMode}/>
       <Work isDarkMode={isDarkMode}/>
       <Contact isDarkMode={isDarkMode}/>
       <Footer isDarkMode={isDarkMode}/>

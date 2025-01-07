@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './about-me.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -9,13 +9,16 @@ import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
+
+import postman from './postman.jpg';
 import mongodb from './mongodb.png';
+
 import right_arrow_white from './right-arrow-white.png';
-import logo from './logo.png';
-import logo_dark from './logo_dark.png';
+import logo from './logo-white.png';
+import logo_dark from './logo-white.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile_photo.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -34,6 +37,9 @@ import graphics_icon from './graphics-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
+import LeetCodeLogo from './leetcode.jpg';
+import CodeChefLogo from './codechef.jpg';
+import GFGLogo from './gfg.jpg';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
 export const assets = {
@@ -73,7 +79,12 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    postman,
+    LeetCodeLogo,
+    CodeChefLogo,
+    GFGLogo,
+   
 };
 
 export const workData = [
@@ -104,10 +115,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    {  id:0,icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    {  id:1,icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    {  id:2,icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    {  id:3,icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: '' },
+    {  id:1,icon: assets.mobile_icon, title: 'Frontend Development', description: 'Crafting intuitive and visually appealing user interfaces using modern frameworks like React and Next.js', link: '' },
+    {  id:2,icon: assets.ui_icon, title: 'Backend Development & API Integration', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: '' },
+    {  id:3,icon: assets.graphics_icon, title: 'Website Optimization & Maintenance', description: 'Enhancing website performance, ensuring fast load times, and providing ongoing updates and support.', link: '' },
 ]
 
 export const infoList = [
@@ -117,5 +128,57 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb,  assets.git,assets.postman
 ];
+
+export const EXPERIENCES = [
+    {
+      year: " June 2024 - September 2024",
+      role: " Full Stack Developer",
+      company: "GaoTek Inc.",
+      description: `Worked in developing and maintaining web applications using Wordpress.Collaborated with stakeholders to define project requirements and timelines.`,
+      technologies: ["Wordpress"],
+    },
+    {
+      year: " August 2023 -August 2024",
+      role: "Head of Operations ",
+      company: "Developers Student Club GGV",
+      description: `Involves overseeing the daily operations of the organization to ensure efficiency and effectiveness. Contributing to the technical side by building web applications using Next.js and React.Implemented responsive designs and optimized frontend performance. `,
+      technologies: ["React.js", "TailwindCSS", "Next.js", "Node.js"],
+    },
+    {
+      year: " August 2022 -August 2023",
+      role: "Co-Lead of Web/Android Development Team ",
+      company: "Developers Student Club GGV",
+      description: `Developed and maintained web applications using HTML,CSS,JS. Worked closely with backend developers to integrate frontend components with Node.js APIs. Collaborated with cross-functional teams.`,
+      technologies: ["HTML", "CSS", "JS"],
+    },
+  ];
+
+  export const CODING_STATS=[
+    {  
+        id:0,
+      title:"LeetCode",
+      image: LeetCodeLogo, 
+      profileLink:"https://leetcode.com/u/ankur_code07/", 
+      discription: "Contest rating of 1,568, with 487 problems solved and five badges earned, including the 200 Days Badge 2024.",
+      problemsSolved: '450+', 
+    },
+    { 
+        id:1,
+      title:"GFG",
+      image: GFGLogo, 
+      profileLink: "https://www.geeksforgeeks.org/user/ankur_verma3008/", 
+      discription:"Solved 286 problems, have a coding score of 700, a contest rating of 1721, and a current streak of 109 days. You're ranked 63rd among peers.",
+      problemsSolved: "280+", 
+       
+    },
+    { 
+        id:2,
+      title:"Codechef",
+      image: CodeChefLogo, 
+      profileLink: "hhttps://www.codechef.com/users/ankurverma30",
+      discription: "Rating of 1486 in Division 3, with a global rank of 30,585 and a country rank of 27,408.", 
+      problemsSolved: "50+"
+    },
+  ]
