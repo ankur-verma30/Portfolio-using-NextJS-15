@@ -41,6 +41,7 @@ import LeetCodeLogo from './leetcode.jpg';
 import CodeChefLogo from './codechef.jpg';
 import GFGLogo from './gfg.jpg';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import vercel from './vercel1.png';
 
 export const assets = {
     user_image,
@@ -84,41 +85,42 @@ export const assets = {
     LeetCodeLogo,
     CodeChefLogo,
     GFGLogo,
+    vercel
    
 };
 
 export const workData = [
     {
         id:0,
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'MERN Authentication',
         bgImage: '/work-1.png',
+        link:"https://github.com/ankur-verma30/MERN-Authentication-Application"
     },
     {
         id:1,
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Blog Application',
         bgImage: '/work-2.png',
+        link:"https://github.com/ankur-verma30/NextJs-Blog-Application"
     },
     {
         id:2,
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Frontend Projects',
         bgImage: '/work-3.png',
+        link:"https://github.com/ankur-verma30/Simple-Projects-Using-HTML-CSS-JavaScript"
     },
     {
         id:3,
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'MovieMania',
         bgImage: '/work-4.png',
+        link:"https://github.com/ankur-verma30/MovieMania"
     },
 ]
 
 export const serviceData = [
-    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: '' },
-    {  id:1,icon: assets.mobile_icon, title: 'Frontend Development', description: 'Crafting intuitive and visually appealing user interfaces using modern frameworks like React and Next.js', link: '' },
-    {  id:2,icon: assets.ui_icon, title: 'Backend Development & API Integration', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: '' },
-    {  id:3,icon: assets.graphics_icon, title: 'Website Optimization & Maintenance', description: 'Enhancing website performance, ensuring fast load times, and providing ongoing updates and support.', link: '' },
+    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: 'https://github.com/ankur-verma30' },
+    {  id:1,icon: assets.mobile_icon, title: 'Frontend Development', description: 'Crafting intuitive and visually appealing user interfaces using modern frameworks like React and Next.js', link: 'https://github.com/ankur-verma30/Simple-Projects-Using-HTML-CSS-JavaScript' },
+    {  id:2,icon: assets.ui_icon, title: 'Backend Development & API Integration', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: 'https://github.com/ankur-verma30/MERN-Authentication-Application' },
+    {  id:3,icon: assets.graphics_icon, title: 'Website Optimization & Maintenance', description: 'Enhancing website performance, ensuring fast load times, and providing ongoing updates and support.', link: 'https://github.com/ankur-verma30/NextJs-Blog-Application' },
 ]
 
 export const infoList = [
@@ -128,7 +130,7 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb,  assets.git,assets.postman
+    assets.vscode, assets.firebase, assets.mongodb,  assets.git,assets.postman,assets.vercel
 ];
 
 export const EXPERIENCES = [
@@ -161,16 +163,16 @@ export const EXPERIENCES = [
       title:"LeetCode",
       image: LeetCodeLogo, 
       profileLink:"https://leetcode.com/u/ankur_code07/", 
-      discription: "Contest rating of 1,568, with 487 problems solved and five badges earned, including the 200 Days Badge 2024.",
-      problemsSolved: '450+', 
+      description: "Maximum Contest rating of 1730, and earned ten badges",
+      problemsSolved: '720+', 
     },
     { 
         id:1,
       title:"GFG",
       image: GFGLogo, 
       profileLink: "https://www.geeksforgeeks.org/user/ankur_verma3008/", 
-      discription:"Solved 286 problems, have a coding score of 700, a contest rating of 1721, and a current streak of 109 days. You're ranked 63rd among peers.",
-      problemsSolved: "280+", 
+      description:"Coding score of 900,rating of 1770, and a maximum streak of 109 days",
+      problemsSolved: "320+", 
        
     },
     { 
@@ -178,7 +180,7 @@ export const EXPERIENCES = [
       title:"Codechef",
       image: CodeChefLogo, 
       profileLink: "hhttps://www.codechef.com/users/ankurverma30",
-      discription: "Rating of 1486 in Division 3, with a global rank of 30,585 and a country rank of 27,408.", 
-      problemsSolved: "50+"
+      description: "Maximum Rating of 1600, with a global rank of 24,026", 
+      problemsSolved: "186+"
     },
   ]
