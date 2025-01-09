@@ -60,7 +60,6 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}
-          whileHover={{scale:1.1}}
           className="px-10 py-3 border border-white rounded-full bg-black text-2xl text-white flex items-center gap-2 dark:bg-transparent"
           href="https://www.linkedin.com/in/ankur-verma30/"
         >
@@ -71,7 +70,6 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          whileHover={{scale:1.1}}
           href="https://drive.google.com/file/d/1srVaB1VJjJXGzlemzr75rbrnc4CSqKCt/view?usp=sharing"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white"

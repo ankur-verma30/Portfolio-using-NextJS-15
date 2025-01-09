@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { assets } from "../assets/assets";
+import { SiGithub } from "react-icons/si";
+import {  FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 const Footer = ({ isDarkMode }) => {
   return (
@@ -25,23 +27,18 @@ const Footer = ({ isDarkMode }) => {
         <p>© 2025 Ankur Verma. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a href="" target="_blank">
-              GitHub
+            <a href="https://github.com/ankur-verma30" target="_blank" className="text-3xl">
+             <SiGithub />
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
-              GitHub
+            <a href="https://www.linkedin.com/in/ankur-verma30/" target="_blank" className="text-3xl">
+             <FaLinkedin /> 
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank">
-              GitHub
+            <a href="https://x.com/Ankur_Codez07?t=j6nJqN9of0B9iYUex4iTaA&s=09" target="_blank" className="text-3xl">
+              <FaXTwitter />
             </a>
           </li>
         </ul>

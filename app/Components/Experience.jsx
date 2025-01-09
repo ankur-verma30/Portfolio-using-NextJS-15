@@ -10,7 +10,7 @@ const Experience = () => {
 					return (
 						<div key={index} className="mb-8 flex flex-wrap lg:justify-center gap-3">
 							<motion.div whileInView={{ x: 0, opacity: 1 }} initial={{ x: -100, opacity: 0 }} transition={{ duration: 1.2 }} className="w-full lg:w-1/4">
-								<p className="mb-2 text-black font-Ovo text-lg">
+								<p className="mb-2 text-black font-Ovo text-lg dark:text-white">
 									{experience.year}
 								</p>
 							</motion.div>
@@ -21,7 +21,7 @@ const Experience = () => {
 										{experience.company}
 									</span>
 								</h6>
-								<p className="mb-4 text-black font-Ovo text-sm">
+								<p className="mb-4 text-black font-Ovo text-sm dark:text-white/70">
 									{experience.description}
 								</p>
 								{experience.technologies.map((technology, index) => {
