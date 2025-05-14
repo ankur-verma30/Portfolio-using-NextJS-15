@@ -70,7 +70,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="https://drive.google.com/file/d/1srVaB1VJjJXGzlemzr75rbrnc4CSqKCt/view?usp=sharing"
+          href="https://drive.google.com/file/d/1L7W_BVlQrRWmyuibzZkflMWLCWb0dH1s/view?usp=sharing"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white"
         >
