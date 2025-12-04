@@ -16,7 +16,7 @@ const Header = () => {
         // add your profile imagee
           src={assets.profile_img}
           alt="profile"
-          className="rounded-full w-32"
+          className="rounded-full w-32 mt-5"
         />
       </motion.div>
 
@@ -39,6 +39,7 @@ const Header = () => {
           strings={[
             "Software Engineer",
             "C++ Programmer",
+            "Java Programmer",            
             "Full Stack Developer",
           ]}
           typeSpeed={40}
@@ -57,6 +58,7 @@ const Header = () => {
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a
+          target="_blank"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}
@@ -67,10 +69,11 @@ const Header = () => {
           <Image src={assets.right_arrow_white} alt="" className="w-4" />{" "}
         </motion.a>
         <motion.a
+          target="_blank"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="https://drive.google.com/file/d/1L7W_BVlQrRWmyuibzZkflMWLCWb0dH1s/view?usp=sharing"
+          href=""
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:text-black dark:bg-white"
         >

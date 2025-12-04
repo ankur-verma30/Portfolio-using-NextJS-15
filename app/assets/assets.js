@@ -92,61 +92,54 @@ export const assets = {
 export const workData = [
     {
         id:0,
-        title: 'MERN Authentication',
+        title: 'Hospital Management System',
         bgImage: '/work-1.png',
-        link:"https://github.com/ankur-verma30/MERN-Authentication-Application"
+        link:"https://github.com/ankur-verma30/Hospital-Management-System-Backend"
     },
     {
         id:1,
-        title: 'Blog Application',
+        title: 'Job Portal Application',
         bgImage: '/work-2.png',
-        link:"https://github.com/ankur-verma30/NextJs-Blog-Application"
+        link:"https://github.com/ankur-verma30/Job-Portal-Application"
     },
     {
-        id:2,
-        title: 'Frontend Projects',
-        bgImage: '/work-3.png',
-        link:"https://github.com/ankur-verma30/Simple-Projects-Using-HTML-CSS-JavaScript"
+      id:2,
+      title: 'Multi-Vendor-E-Commerce-Marketplace Application',
+      bgImage: '/work-4.png',
+      link:"https://github.com/ankur-verma30/Multi-Vendor-E-Commerce-Marketplace"
     },
     {
         id:3,
-        title: 'MovieMania',
-        bgImage: '/work-4.png',
-        link:"https://github.com/ankur-verma30/MovieMania"
+        title: 'Insurance-Report-Filteration-Using-SpringBoot',
+        bgImage: '/work-3.png',
+        link:"https://github.com/ankur-verma30/Insurance-Report-Filteration-Using-SpringBoot"
     },
 ]
 
 export const serviceData = [
-    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: 'https://github.com/ankur-verma30' },
-    {  id:1,icon: assets.mobile_icon, title: 'Frontend Development', description: 'Crafting intuitive and visually appealing user interfaces using modern frameworks like React and Next.js', link: 'https://github.com/ankur-verma30/Simple-Projects-Using-HTML-CSS-JavaScript' },
-    {  id:2,icon: assets.ui_icon, title: 'Backend Development & API Integration', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: 'https://github.com/ankur-verma30/MERN-Authentication-Application' },
-    {  id:3,icon: assets.graphics_icon, title: 'Website Optimization & Maintenance', description: 'Enhancing website performance, ensuring fast load times, and providing ongoing updates and support.', link: 'https://github.com/ankur-verma30/NextJs-Blog-Application' },
+    {  id:0,icon: assets.web_icon, title: 'Custom Web Application Development', description: 'I create fully customized, scalable, and responsive web applications tailored to your unique business needs.', link: 'https://github.com/ankur-verma30/Hospital-Management-System-Backend' },
+    {  id:1,icon: assets.mobile_icon, title: 'Frontend Development', description: 'Crafting intuitive and visually appealing user interfaces using modern frameworks like React and Next.js', link: 'https://github.com/ankur-verma30/Insurance-Report-Filteration-Using-SpringBoot' },
+    {  id:2,icon: assets.ui_icon, title: 'Backend Development & API Integration', description: 'Building robust and secure server-side applications with seamless API integrations for efficient data flow.', link: 'https://github.com/ankur-verma30/Job-Portal-Application' },
+    {  id:3,icon: assets.graphics_icon, title: 'Website Optimization & Maintenance', description: 'Enhancing website performance, ensuring fast load times, and providing ongoing updates and support.', link: 'https://github.com/ankur-verma30/Multi-Vendor-E-Commerce-Marketplace' },
 ]
 
 export const infoList = [
-    {id:0, icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js Node Js, Express Js, C/C++, Python, SQL, Typescript,Firebase, MongoDB' },
-    { id:1,icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology' },
-    { id:2, icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
+    {id:0, icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages/Technologies', description: 'HTML, CSS, JavaScript, React Js, Next Js, C/C++, SQL, Typescript, MongoDB, Java, SpringBoot, AWS, Git, Docker, Kubernetes, Linux' },
+    { id:1,icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Information Technology from Guru Ghasidas University, Bilaspur, Chhattisgarh, 2021-2025' },
+    { id:2, icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Hospital Management System, Job Portal Application, Multi-Vendor-E-Commerce-Marketplace Application' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb,  assets.git,assets.postman,assets.vercel
+    assets.vscode, assets.mongodb,  assets.git,assets.postman,assets.vercel
 ];
 
 export const EXPERIENCES = [
-    {
-      year: " June 2024 - September 2024",
-      role: " Full Stack Developer",
-      company: "GaoTek Inc.",
-      description: `Worked in developing and maintaining web applications using Wordpress.Collaborated with stakeholders to define project requirements and timelines.`,
-      technologies: ["Wordpress"],
-    },
     {
       year: " August 2023 -August 2024",
       role: "Head of Operations ",
       company: "Developers Student Club GGV",
       description: `Involves overseeing the daily operations of the organization to ensure efficiency and effectiveness. Contributing to the technical side by building web applications using Next.js and React.Implemented responsive designs and optimized frontend performance. `,
-      technologies: ["React.js", "TailwindCSS", "Next.js", "Node.js"],
+      technologies: ["React.js", "TailwindCSS", "Next.js", "Java"],
     },
     {
       year: " August 2022 -August 2023",
@@ -164,7 +157,7 @@ export const EXPERIENCES = [
       image: LeetCodeLogo, 
       profileLink:"https://leetcode.com/u/ankur_code07/", 
       description: "Maximum Contest rating of 1730, and earned ten badges",
-      problemsSolved: '720+', 
+      problemsSolved: '1010+', 
     },
     { 
         id:1,
@@ -172,7 +165,7 @@ export const EXPERIENCES = [
       image: GFGLogo, 
       profileLink: "https://www.geeksforgeeks.org/user/ankur_verma3008/", 
       description:"Coding score of 900,rating of 1770, and a maximum streak of 109 days",
-      problemsSolved: "320+", 
+      problemsSolved: "420+", 
        
     },
     { 
@@ -181,6 +174,6 @@ export const EXPERIENCES = [
       image: CodeChefLogo, 
       profileLink: "hhttps://www.codechef.com/users/ankurverma30",
       description: "Maximum Rating of 1600, with a global rank of 24,026", 
-      problemsSolved: "186+"
+      problemsSolved: "240+"
     },
   ]
